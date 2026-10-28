@@ -1,0 +1,16 @@
+PySide6>=6.7.0
+numpy==1.26.4
+matplotlib==3.9.4
+pandas==2.3.0
+drawsvg==2.4.1
+cairosvg>=2.7.0
+python-docx>=1.1.0
+openseespy==3.5.1.3
+opsvis==1.3.4
+groundhog==0.15.0
+sectionproperties==3.5.0
+concreteproperties==0.6.4
+openpile==1.0.2
+xslope==0.1.54
+gmsh==4.15.2
+

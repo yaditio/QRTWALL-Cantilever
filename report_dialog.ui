@@ -1,0 +1,115 @@
+<?xml version="1.0" ?>
+<ui version="4.0">
+  <class>ReportExportDialog</class>
+  <widget class="QDialog" name="ReportExportDialog">
+    <property name="geometry">
+      <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>900</width>
+        <height>720</height>
+      </rect>
+    </property>
+    <property name="windowTitle">
+      <string>📋 RT Wall Cantilever Report Export</string>
+    </property>
+    <layout class="QVBoxLayout" name="vbox_report_dialog">
+      <item>
+        <widget class="QLabel" name="lbl_report_title">
+          <property name="text">
+            <string>📋 RT Wall Cantilever Design Report Export</string>
+          </property>
+          <property name="styleSheet">
+            <string>font-size: 18px; font-weight: 700; color: #162447;</string>
+          </property>
+        </widget>
+      </item>
+      <item>
+        <widget class="QLabel" name="lbl_report_desc">
+          <property name="text">
+            <string>Generate and download a comprehensive engineering design report for the current wall configuration in Word (DOCX) or PDF format.</string>
+          </property>
+          <property name="styleSheet">
+            <string>color: #475569;</string>
+          </property>
+          <property name="wordWrap">
+            <bool>true</bool>
+          </property>
+        </widget>
+      </item>
+      <item>
+        <layout class="QHBoxLayout" name="hbox_export_buttons">
+          <item>
+            <widget class="QPushButton" name="btn_download_docx">
+              <property name="text">
+                <string>📝 Save Word Document (.docx)</string>
+              </property>
+              <property name="styleSheet">
+                <string>padding: 10px; font-weight: 600;</string>
+              </property>
+            </widget>
+          </item>
+          <item>
+            <widget class="QPushButton" name="btn_download_pdf">
+              <property name="text">
+                <string>📕 Save PDF Report (.pdf)</string>
+              </property>
+              <property name="styleSheet">
+                <string>padding: 10px; font-weight: 600; background-color: #1f4068; color: white;</string>
+              </property>
+            </widget>
+          </item>
+        </layout>
+      </item>
+      <item>
+        <widget class="QLabel" name="lbl_preview_summary_header">
+          <property name="text">
+            <string>🔍 Design Summary Preview</string>
+          </property>
+          <property name="styleSheet">
+            <string>font-size: 14px; font-weight: 700;</string>
+          </property>
+        </widget>
+      </item>
+      <item>
+        <widget class="QTextBrowser" name="txt_design_summary_preview">
+          <property name="maximumSize">
+            <size>
+              <width>16777215</width>
+              <height>110</height>
+            </size>
+          </property>
+        </widget>
+      </item>
+      <item>
+        <widget class="QLabel" name="lbl_pdf_preview_header">
+          <property name="text">
+            <string>📄 PDF Inline Preview</string>
+          </property>
+          <property name="styleSheet">
+            <string>font-size: 14px; font-weight: 700;</string>
+          </property>
+        </widget>
+      </item>
+      <item>
+        <widget class="QLabel" name="pdf_preview_container">
+          <property name="minimumSize">
+            <size>
+              <width>300</width>
+              <height>420</height>
+            </size>
+          </property>
+          <property name="text">
+            <string>[PDF Inline Preview Area]</string>
+          </property>
+          <property name="alignment">
+            <set>Qt::AlignCenter</set>
+          </property>
+          <property name="styleSheet">
+            <string>background-color: #f8fafc; border: 1px dashed #cbd5e1; border-radius: 6px; color: #64748b;</string>
+          </property>
+        </widget>
+      </item>
+    </layout>
+  </widget>
+</ui>
