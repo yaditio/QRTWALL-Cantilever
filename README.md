@@ -64,14 +64,13 @@ Clicking **📄 Generate Report** exports all high-resolution figures and equati
 ## 🛠️ Installation & Running
 
 ### Prerequisites
-- Windows 10/11 (64-bit)
-- Miniconda / Anaconda with **Python 3.10** (`python310` environment)
-- Cairo shared library (`conda install -c conda-forge cairo -y`) for `drawsvg` PNG rasterization
-- `PySide6` (`pip install PySide6`)
+- **Python 3.10 or above**
+- Cairo shared library (for `drawsvg` PNG rasterization)
+- Required Python packages (`pip install -r requirements.txt`)
 
 ### Run the Desktop Application
-```powershell
-C:\ProgramData\miniconda3\envs\python310\python.exe E:\Documents\Practice\Python\QRTWALL-Cantilever\main.py
+```bash
+python main.py
 ```
 
 ---
