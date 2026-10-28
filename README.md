@@ -1,8 +1,6 @@
-# 🧱 QRTWALL-Cantilever (Qt6 Native Desktop App)
+# 🧱 QRTWALL-Cantilever
 
-**QRTWALL-Cantilever** is a native **Qt6 (`PySide6`)** desktop port of the **RT Wall - Cantilever** application for the geotechnical and structural analysis, design, and verification of cantilever retaining walls.
-
-It combines classical Rankine/Boussinesq earth pressure mechanics, **groundhog** bearing capacity & 1D consolidation settlement, **OpenSeesPy** 2D finite element (`Tri31` + Winkler spring) analysis, **concreteproperties** ultimate section capacity checks, **openpile** lateral/axial pile foundation analysis, and **xslope** + **Gmsh** 2D Finite Element Strength Reduction Method (**SSRM**) global slope stability into a native multi-tab desktop interface.
+**QRTWALL-Cantilever** is a native **Qt (`PySide6`)** desktop port of **RTWALL-Cantilever**, providing all of its cantilever retaining wall analysis, design, and verification functions in a native Qt interface.
 
 ---
 
